@@ -20,8 +20,8 @@
 	<meta charset="utf-8">
 	<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded', function() {
-			var elems = document.querySelectorAll('.sidenav');
-			var instances = M.Sidenav.init(elems, options);
+			var elems = document.querySelectorAll('sidenav');
+			
 		});
 
 
@@ -49,7 +49,7 @@
 		if (scroll > 50) {
 			$('a').css('color','SteelBlue');
 		} else {
-			$('a').css('color','white');
+			$('a').css('color','black');
 		}
 	});
 </script>
@@ -172,41 +172,51 @@
 							<center><img id="icon-sobres" src="css/imagens/galeria/multitec.jpg" class="card-img-top" alt="..."></center> 
 							<div class="card-body ">
 								<h5 class="card-title">Multitec</h5>
-								<p id="quemT" class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							</div>
-							<a style="text-align: center;" href="sites/multi/MULTITEC/inicio.html">
+								<p style="width: 280px; height:100px;" id="quemT" class="card-text">Foi um dos primeiros sites a ser desenvolvido, na ocasião utilizamos html e css e interações através de requisições de formulári, uma aplicação de venda de tecnologia.</p>
+						<center>
+							<a style="text-align: center;" href="#sites">
 								<button style="background-color: #2980b9; color: white;" type="button" class="btn " data-toggle="modal">
-									Launch demo modal
+									Visualizar site
 								</button>
 							</a>
+							</div>
+						</center>
+						
 						</div>
 					</div>
 					<div  class="col mb-4">
 						<div id="card2" style="" class="card wow fadeIn" data-wow-delay="1.5s">
 							<center><img id="icon-sobres" src="css/imagens/galeria/bathica.jpg" class="card-img-top" alt="..."></center> 
 							<div class="card-body">
-								<h5 class="card-title">Site 2</h5>
-								<p id="quemT" class="card-title">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							</div>
-							<a style="text-align: center;" href="sites/Bathica/Báthica_Final/siteHome.html">
+								<h5 class="card-title">Báthica</h5>
+								<p style="width: 380px; height: 100px;" id="quemT" class="card-title">Uma aplicação desenvolvida para fins matemáticos,foi usado html css e javascript, fizemos uma aplicação de juros,empuxo,geometria,espaço e volume.</p>
+								<center>
+									<a style="text-align: center;" href="#sites">
 								<button style="background-color: #2980b9; color: white;" type="button" class="btn " data-toggle="modal">
-									Launch demo modal
+									Visualizar site
 								</button>
-							</a>
+									</a>
+								</center>
+								
+							</div>
+							
 						</div>
 					</div>
 					<div class="col mb-4">
 						<div id="card3"   class="card wow fadeInRight" data-wow-delay="1.2s">
 							<center><img id="icon-sobres" src="css/imagens/galeria/acade.jpg" class="card-img-top" alt="..."></center>  
 							<div class="card-body">
-								<h5 class="card-title">Site 3</h5>
-								<p id="quemT" class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<h5 class="card-title">SHOP ACADEMY LIFE</h5>
+								<p style="width: 300px;height:130px;  margin-top: -14px;" id="quemT" class="card-text">Um site que atendeu as minhas expectativas, na qual a proposta pensada e bem executada foi de um sistema de compra de produtos de academia , foi usado html e css e frameworks , para fazer o sistema de compra do carrinho usamos requisições get e post para realização do carrinho de compra</p>
 							</div>
-							<a style="text-align: center;" href="sites/academia/Site_oficial/inicio.php">
+							<center>
+								<a style="text-align: center;" href="#sites">
 								<button style="background-color: #2980b9; color: white;" type="button" class="btn " data-toggle="modal">
-									Launch demo modal
+									Visualizar site
 								</button>
 							</a>
+							</center>
+							
 						</div>
 		</div>
 
@@ -255,6 +265,72 @@
 				</div>
 			</div>			
 		</div>
+
+		<!-- sites -->
+		<center><h2 id="sites" class="galeria wow fadeIn">Sites</h2></center>
+
+		<div style="margin-top: 0px;" class="container">
+			<div  class="card_img">
+				<div class="row-2">
+					<ul class="lu">
+						<li><a  href="#img11"><img src="css/imagens/multi_01.jpg" class="min wow fadeInLeft"  data-wow-delay="0.3s"></a></li>
+						<li><a href="#img12"><img src="css/imagens/multi_02.jpg"class="min wow fadeInUp"  data-wow-delay="0.7s"></a></li>
+						<li><a href="#img13"><img src="css/imagens/multi_03.jpg" class="min wow fadeInUp"  data-wow-delay="1.2s"></a></li>
+						<li><a href="#img14"><img src="css/imagens/multi_04.jpg" class="min wow fadeInUp"  data-wow-delay="1.9s"></a></li>
+						<li><a href="#img15"><img src="css/imagens/multi_05.jpg" class="min wow fadeInRight" data-wow-delay="2.4s"></a></li>
+
+
+					</ul>
+				</div>
+			</div>			
+		</div>
+
+
+
+
+		<div style="margin-top: -20px;" class="container">
+			<div  class="card_img">
+				<div class="row-2">
+					<ul class="lu">
+						<li><a  href="#img16"><img src="css/imagens/bathica_01.jpg" class="min wow fadeInLeft"  data-wow-delay="0.3s"></a></li>
+						<li><a href="#img17"><img src="css/imagens/bathica_03.jpg"class="min wow fadeInUp"  data-wow-delay="1.8s"></a></li>
+						<li><a href="#img18"><img src="css/imagens//bathica_espaco.jpg"class="min wow fadeInUp"  data-wow-delay="1.8s"></a></li>
+						<li><a href="#img19"><img src="css/imagens/bathica_geometria.jpg" class="min wow fadeInRight" data-wow-delay="2.4s"></a></li>
+						<li><a href="#img20"><img src="css/imagens/bathic.jpg" class="min wow fadeInRight" data-wow-delay="2.4s"></a></li>
+
+
+					</ul>
+				</div>
+			</div>			
+		</div>
+
+
+
+		<div style="margin-top: 50px;" class="container">
+			<div  class="card_img">
+				<div class="row-2">
+					<ul class="lu">
+						<li><a  href="#img21"><img src="css/imagens/academia_01.jpg" class="min wow fadeInLeft"  data-wow-delay="0.3s"></a></li>
+						<li><a href="#img22"><img src="css/imagens/academia_02.jpg"class="min wow fadeInUp"  data-wow-delay="1.8s"></a></li>
+						<li><a href="#img23"><img src="css/imagens/academia_03.jpg"class="min wow fadeInUp"  data-wow-delay="1.8s"></a></li>
+						<li><a href="#img24"><img src="css/imagens/academia_04.jpg" class="min wow fadeInRight" data-wow-delay="2.4s"></a></li>
+						<li><a href="#img25"><img src="css/imagens/academia_05.jpg" class="min wow fadeInRight" data-wow-delay="2.4s"></a></li>
+
+
+					</ul>
+				</div>
+			</div>			
+		</div>
+
+
+
+
+
+
+
+
+
+
 		
 		<div class="lbox" id="img1">
 			<div class="box_img">
@@ -342,7 +418,7 @@
 				<a href="#img9" id="next">&#187;</a>
 				<a href="#galeria" class="btns" id="close">X</a>
 				<img class="mine" src="css/imagens/galeria/fepro.jpg">
-				<p id="quemss">Na feprocic participei do projeto android com arduino, e fiquei responsável pela programação do sistema.</p>
+				
 			
 			</div>
 		</div>
@@ -353,7 +429,7 @@
 				<a href="#img10" id="next">&#187;</a>
 				<a href="#galeria" class="btns" id="close">X</a>
 				<img style="width: 450px;" class="mine" src="css/imagens/galeria/aranha_oficial.png">
-					<p id="quemss">Uma atividade da disciplina de dsigne, na qual foi realizado, a confecção de uma arte para capa de cd e dvd</p>
+				
 				
 			</div>
 		</div>
@@ -364,7 +440,196 @@
 				<a href="#img1" id="next">&#187;</a>
 				<a href="#galeria" class="btns" id="close">X</a>
 				<img style="width: 300px;" class="mine" src="css/imagens/galeria/app_al.jpg">
-					<p id="quemss">Uma atividade do curso de android, na qual consistia em gerar números aleatórios , uma espécie de jogo.</p>
+					<p id="quemss">Uma atividade do curso de android, na qual consistia em gerar números 
+			
+			</div>
+		</div>
+
+
+		<!-- sites --imagens -->
+
+		<div class="lbox" id="img11">
+			<div class="box_img">
+			<a href="#img10" class="btns" id="prev">&#171;</a>
+				<a href="#img12" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/multi_01.jpg">
+		
+			
+			</div>
+		</div>
+
+		<div class="lbox" id="img12">
+			<div class="box_img">
+			<a href="#img11" class="btns" id="prev">&#171;</a>
+				<a href="#img13" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img class="mine" src="css/imagens/img-sites/multi_02.jpg">
+				
+			
+			</div>
+		</div>
+
+
+		<div class="lbox" id="img13">
+			<div class="box_img">
+			<a href="#img12" class="btns" id="prev">&#171;</a>
+				<a href="#img14" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/multi_03.jpg">
+					
+			
+			</div>
+		</div>
+
+			<div class="lbox" id="img14">
+			<div class="box_img">
+			<a href="#img13" class="btns" id="prev">&#171;</a>
+				<a href="#img15" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img class="mine" src="css/imagens/img-sites/multi_04.jpg">
+					
+			
+			</div>
+		</div>
+
+			<div class="lbox" id="img15">
+			<div class="box_img">
+			<a href="#img14" class="btns" id="prev">&#171;</a>
+				<a href="#img16" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/multi_05.jpg">
+					
+			
+			</div>
+		</div>
+
+		<div class="lbox" id="img16">
+			<div class="box_img">
+			<a href="#img15" class="btns" id="prev">&#171;</a>
+				<a href="#img17" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/bathica_01.jpg">
+					
+			
+			</div>
+		</div>
+
+
+
+		<div class="lbox" id="img17">
+			<div class="box_img">
+			<a href="#img16" class="btns" id="prev">&#171;</a>
+				<a href="#img18" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/bathica_03.jpg">
+				
+			</div>
+		</div>
+
+
+
+		<div class="lbox" id="img18">
+			<div class="box_img">
+			<a href="#img17" class="btns" id="prev">&#171;</a>
+				<a href="#img19" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img class="mine" src="css/imagens/img-sites/bathica_espaco.jpg">
+					
+			
+			</div>
+		</div>
+
+
+		<div class="lbox" id="img19">
+			<div class="box_img">
+			<a href="#img18" class="btns" id="prev">&#171;</a>
+				<a href="#img20" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/bathica_geometria.jpg">
+			
+			
+			</div>
+		</div>
+
+
+		<div class="lbox" id="img20">
+			<div class="box_img">
+			<a href="#img19" class="btns" id="prev">&#171;</a>
+				<a href="#img21" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/bathic.jpg">
+				>
+			
+			</div>
+		</div>
+
+
+
+
+		<div class="lbox" id="img21">
+			<div class="box_img">
+			<a href="#img20" class="btns" id="prev">&#171;</a>
+				<a href="#img22" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/academia_01.jpg">
+				>
+			
+			</div>
+		</div>
+
+
+
+
+
+		<div class="lbox" id="img22">
+			<div class="box_img">
+			<a href="#img21" class="btns" id="prev">&#171;</a>
+				<a href="#img23" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/academia_02.jpg">
+				>
+			
+			</div>
+		</div>
+
+
+
+
+
+		<div class="lbox" id="img23">
+			<div class="box_img">
+			<a href="#img22" class="btns" id="prev">&#171;</a>
+				<a href="#img24" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img class="mine"src="css/imagens/img-sites/academia_03.jpg">
+				
+			
+			</div>
+		</div>
+
+
+
+
+		<div class="lbox" id="img24">
+			<div class="box_img">
+			<a href="#img23" class="btns" id="prev">&#171;</a>
+				<a href="#img25" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/academia_04.jpg">
+				>
+			
+			</div>
+		</div>
+
+
+		<div class="lbox" id="img25">
+			<div class="box_img">
+			<a href="#img24" class="btns" id="prev">&#171;</a>
+				<a href="#img11" id="next">&#187;</a>
+				<a href="#galeria" class="btns" id="close">X</a>
+				<img  class="mine" src="css/imagens/img-sites/academia_05.jpg">
+				>
 			
 			</div>
 		</div>
@@ -375,7 +640,7 @@
 </div>
 
 
-<div class="quinta">
+<div style="margin-top: 1000px;" class="quinta">
 	<!-- Footer -->
 	<footer class="page-footer font-small white  pt-4">
 		<div class="container">
