@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bathica - A Gente Conta ;)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="icon" type="x-icon" href="Imagens/iconLogo.png">
+	<link rel="stylesheet" type="text/css" href="estiloVolume.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<aside id="logo">
+			<div id="iconMenu">
+		    	<img src="Imagens/iconFoto.png">
+		    </div>
+			<h6 id="logoText">Báthica</h6>
+		</aside>
+		<nav id="menu-1">
+			<ul>
+				<li><a href="siteHome.htm">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>VOLUME</h1>
+		<a href="#">
+			<img src="Imagens/down-arrow.png">
+		</a>
+	</section>
+	<nav id="menu-2">
+		<ul>
+			<li><a href="#oQueE">O que é?</a></li>
+			<li><a href="#howTo">Como calcular?</a></li>
+			<li><a href="#ap">Aplicação</a></li>
+		</ul>
+	</nav>
+	<section id="oQueE">
+		<br>
+		<h1>O que é?</h1>
+		<aside>
+			<div></div>
+			<p>
+				O volume de um corpo é a quantidade de espaço ocupada por esse corpo. O volume tem unidades de tamanho cúbicos (por exemplo, cm³, m³, in³, etc.).
+
+				O volume é a relação entre:
+				<br><br>
+				<a href="https://www.infoescola.com/quimica/volume-atomico-e-densidade/">Massa</a>
+				<br>
+				<a href="https://www.infoescola.com/quimica/volume-atomico-e-densidade/">Densidade</a>
+				<br>
+				<a href="https://www.infoescola.com/quimica/volume-atomico-e-densidade/">Fórmula: V = m / d</a>
+				<br><br>
+				Sua unidade no Sistema internacional de unidades é o metro cúbico (m³). A seguinte tabela mostra a equivalência entre volume e capacidade. Contudo, não é considerado uma unidade fundamental do SI, pois pode ser calculado através dos comprimentos. A unidade mais comum utilizada é o litro.
+			
+				Na física, o volume é uma magnitude física extensiva associada à propriedade dos corpos físicos de ser extensos, sendo possível mediante o princípio de exclusão de Pauli.
+			</p>	
+		</aside>
+	</section>
+	<section id="howTo">
+		<h1>Como calcular</h1>
+		<aside id="fotos">
+			<a href="#volume"><div><h2>Volume</h2></div></a>
+			<a href="#massa"><div><h2>Massa</h2></div></a>
+			<a href="#densidade"><div><h2>Densidade</h2></div></a>
+		</aside>
+		<aside id="volume">
+			<p>
+				O volume de um corpo é a quantidade de espaço ocupada por esse corpo. O volume tem unidades de tamanho cúbicos (por exemplo, cm³, m³, in³, etc.). 
+		
+				Sua unidade no Sistema internacional de unidades é o metro cúbico (m³). A seguinte tabela mostra a equivalência entre volume e capacidade. Contudo, não é considerado uma unidade fundamental do SI, pois pode ser calculado através dos comprimentos. A unidade mais comum utilizada é o litro.
+			
+				Na física, o volume é uma magnitude física extensiva associada à propriedade dos corpos físicos de ser extensos, sendo possível mediante o princípio de exclusão de Pauli.
+			</p>
+		</aside>
+		<aside id="massa">
+			<p>
+				A massa é uma grandeza física fundamental. Segundo a mecânica newtoniana, ela dá a medida da inércia ou da resistência de um corpo em ter seu movimento acelerado. Ela também é a origem da força gravitacional, atuante sobre os corpos no Universo.
+			
+				Massa é um conceito utilizado em ciências naturais. Em particular, a massa é frequentemente associada ao peso dos objetos.
+			
+				Considerando que a força e a aceleração são grandezas vetoriais, isso implica em dizer que a massa é uma grandeza escalar. Então, a massa inercial indica a tendência de aceleração de um corpo para uma dada força.
+			</p>
+		</aside>
+		<aside id="densidade">
+			<p>
+				Densidade é a relação existente entre a massa e o volume de um material, a uma dada pressão e temperatura.
+			
+				No SI (Sistema Internacional de Unidades), a unidade de densidade é o quilograma por metro cúbico (kg/m3). No entanto, os mais utilizados são g/cm3 e o g/mL, lembrando que 1 cm3 equivale a 1 mL.
+			
+				A densidade pode ser expressa para uma substância ou para uma mistura de substâncias. Por exemplo, a densidade da água nas condições ambientes é igual a 1,00 g/cm3, o que quer dizer que em 1 cm3 ou em 1 mL, há 1,0 g de água.
+			</p>
+		</aside>
+	</section>
+	<div id="ap" class="conteiner-espaco">
+		<form class="form-contact" tabindex="1">
+			<span class="form-contact-span">Aplicação</span>
+			<input id="ip1" type="number" placeholder="Massa(kg)" class="form-contact-input" />
+			<input id="ip2" type="number" placeholder="Densidade(kg/l)" class="form-contact-input" />
+			<input type="button" onclick="calc();" class="form-contact-button" value="Calcular"/>
+			<div id="msg" class="mostrar-valor">
+			</div>
+		</form>		
+	</div>
+	<footer>
+		<div id="logo">
+			<h1>BÁTHICA</h1>
+			<p>A Gente Conta</p>
+		</div>
+		<div id="newsletter">
+			<form>
+				<label for="input1">Fique informado ;)</label>
+				<input type="email" id="input1" placeholder="Digite seu e-mail!">
+				<button type="submit">
+					<img src="Imagens/envelope.png">
+				</button>
+			</form>
+		</div>
+	</footer>
+	<a href="#" class="botao"><i class="fas fa-arrow-up"></i></a>
+	<script type="text/javascript">
+		function calc(){
+					var m = parseInt(document.getElementById('ip1').value);
+					var d = parseInt(document.getElementById('ip2').value);
+
+					var v = m / d;
+
+					if (v >= 0) {
+						document.getElementById('msg').innerHTML=(v + "l");
+					}
+					else if(isNaN(m) || isNan(d)) {
+						document.getElementById('msg').innerHTML = "Digite valores numéricos em todas as caixas";
+					}
+				}
+	</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: black;
+	height: 25px;
+	width: 100%
+}
+.principal{
+	height: 600%;
+	width: 100%;
+	
+}
+.rr{
+	width: 100%;
+	height: 40%;
+	background-color: 	#4B0082;
+}
+p{
+	color:white;
+	font-size: 50px;
+	font-family: 'Song Myung', serif;
+	margin-left:33px;
+	cursor: pointer;
+}
+
+#tre{
+	
+	margin-top:39px;
+	margin-left:287px;
+	width: 700px;
+	height: 40px;
+	cursor: pointer;
+	
+}
+::-webkit-input-placeholder {
+   color:#696969;
+   font: 15px verdana, arial, sans-serif;
+}
+#e33{
+	width:80px;
+	height: 20px;
+	background-color: red;
+
+}
+nav a{
+	color: white;
+}
+#efr{
+	width:100px;
+	height: 20px;
+	background-color: red;
+}
+#dder{
+	background-color: red.
+	width:80px;
+	height: 20px;
+	background-color: red;
+}
+button{
+	background-color:#14a1d9;
+
+	width: 120px;
+	height:29px;
+	 font-family: 'Fjord One', serif;
+	 font-size: 21px;
+	 cursor: pointer;
+	 color: white;
+	 margin-left: -125px;
+	
+
+}
+button:hover{
+	background-color: #0e6091;
+}
+button:active{
+	position:relative;
+	top: 5px;
+	box-shadow: none;
+	
+}
+ img{
+ 	margin-left: 1046px;
+ 	margin-top: -96px;
+ 	height: 82px;
+
+
+}
+figcaption{
+	margin-top: -70px;
+	margin-left: 1118px;
+	font-size:22px;
+}
+
+h1{
+	margin-left: 40px;
+}
+#ee{
+	width: 50px;
+	height: 46px;
+	margin-left:  943px;
+	margin-top: -24px;
+	cursor: pointer;
+}
+nav  {
+	text-decoration: none;
+	height: 30px;
+	width: 400px;
+	display: inline-flex;
+	font-size: 23px;
+	background-color: dimgrey;
+	height: 26px;
+	
+}
+#top{
+	margin-top: 15px;
+	width: 1300px;
+	height: 260px;
+	margin-left: 40px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+#etk{
+	
+	width: 150px;
+	height: 110px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.topq{
+	margin-left: 280px;
+	border:1px solid black;
+	width: 870px;
+	height:400px;
+}

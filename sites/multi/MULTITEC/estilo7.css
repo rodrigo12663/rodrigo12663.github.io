@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-repeat: no-repeat;
+	background-image: url(imagens1/va.jpg);
+}
+
+#texto-pri{
+	display: inline-block;
+}
+#co456{
+	background-color: tan;
+	height: 400px;
+	margin-left: 670px;
+	margin-top: 59px;
+	width: 681px;
+	height: 350px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+#pa-pri{
+	font-size: 16px;
+	margin-top: 10px;
+	color:black;
+}
+h6{
+	font-size: 20px;
+	margin-left: 14px;
+}
+#e6{
+	background-color: lightcyan;
+	height: 350px;
+	width: 670px;
+	margin-top: -338px;
+	border-radius: 3px;
+
+
+}
+header{
+	background-color: #2e2e2e;
+	height: 75px;
+	width: 1350px;
+	margin-top: -34px;
+	
+	
+}
+.principal{
+	height:400px;
+	width: 1350px;
+}
+ul input{
+	color: black;
+	width: 80px;
+	height: 20px;
+	margin: 0px;
+	margin-left: 30px;
+	display: inline-block;
+
+}
+.rr{
+	width: 1350px;
+	height: 64px;
+	background-color:#2e2e2e;
+}
+p{
+	color:white;
+	font-size: 43px;
+	margin-left:15px;
+	cursor: pointer;
+	font-family: 'Junge', serif;
+
+}
+
+#tre{
+	
+	margin-top:43px;
+	margin-left:287px;
+	width: 700px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 10px; 
+	outline: none;
+	border: 0px;
+	margin-bottom: 30px;
+	border-bottom: 0px solid grey; 
+	background-color: transparent;
+	
+}
+::-webkit-input-placeholder {
+   color:#696969;
+   font: 15px verdana, arial, sans-serif;
+}
+#e33{
+	width:80px;
+	height: 20px;
+	background-color: red;
+
+}
+nav a{
+	color: white;
+}
+#efr{
+	width:100px;
+	height: 20px;
+	background-color: red;
+}
+#dder{
+	background-color: red.
+	width:80px;
+	height: 20px;
+	background-color: red;
+}
+button{
+	background-color:#14a1d9;
+
+	width: 120px;
+	height:29px;
+	 font-family: 'Fjord One', serif;
+	 font-size: 21px;
+	 cursor: pointer;
+	 color: white;
+	 margin-left: -125px;
+	
+
+}
+button:hover{
+	background-color: #0e6091;
+}
+button:active{
+	position:relative;
+	top: 5px;
+	box-shadow: none;
+	
+}
+ img{
+ 	margin-left: 1046px;
+ 	margin-top: -96px;
+ 	height: 82px;
+
+}
+h4{
+	margin-top: -65px;
+	margin-left: 1008px;
+	font-size:23px;
+	color: white;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+#ede{
+	width: 100px;
+	height: 50px;
+	margin-left:  243px;
+	margin-top: 244px;
+	cursor: pointer;
+}
+#ee{
+	width: 49px;
+	height: 42px;
+	margin-left:  934px;
+	margin-top: -90px;
+	cursor: pointer;
+}
+
+nav  {
+	text-decoration: none;
+	height: 35px;
+	width: 1370px;
+	display: inline-flex;
+	background-color: steelblue;
+	
+}
+#top{
+	margin-top: 30px;
+	width: 1200px;
+	height: 220px;
+	margin-left: 90px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+#etk{
+	
+	width: 150px;
+	height: 110px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.topq{
+	margin-left: 280px;
+	width: 920px;
+	height:835px;
+	margin-top: -20px;	
+}
+#menu1{
+	background-color: steelblue;
+	border:2px solid steelblue;
+	width: 94px;
+	height: 32px;
+	font-size: 18px;
+	margin-left:498px;
+	color: white;
+	cursor:pointer;
+	outline: none;
+
+
+}
+#jj{
+	background-color: steelblue;
+	width: 124px;
+	border:2px solid steelblue;
+	height: 32px;
+	font-size: 18px;
+	margin-left:10px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+#tow{
+	background-color: steelblue;
+	width: 80px; 
+	border:2px solid steelblue;
+	width: 94px;
+	height: 32px;
+	margin-left:11px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+h1{
+	text-align: center;
+	font-family: arial black;
+}
+
+
+h3{
+	width: 300px;
+	margin-left: 9px;
+	font-size: 17px;
+	color: white;
+	margin-top: 13px;
+}
+h5{
+	margin-left: 1184px;
+	font-size:13px;
+	color: dodgerblue;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	margin-top: -69px;
+}
+a{
+	text-decoration: none;
+}
+
+h1{
+	margin-top:160px;
+	margin-left: -679px;
+	height: 40px;
+	color: white;
+	font-size: 31px;
+	font-family: arial black;
+}
+.texto{
+	width: 920px;
+	height: 460px;
+	margin-left: 260px;
+	margin-top: -90px;
+	font-size: 22px;
+	font-family: verdana arial;
+	color: white;
+	border-radius: 20px;
+}
+
+#de{
+	width: 250px;
+	height: 250px;
+	margin-left: 680px;
+	margin-top: -169px;
+}
+video{
+	margin-left: 694px;
+	margin-top: -800px;
+	width: 350px;
+	height: 350px;
+}
+div{
+	margin-top: -40px;
+}
+.rodapé{
+	color: gray;
+	font-size: 2px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+	padding: 10;
+	width:1350px;
+	font-family:'Prata', serif;
+	margin-top: 130px;
+
+}
+#ert{
+	font-size: 17px;
+	color: grey;
+	margin-left: 50px;
+}
+h3{
+
+	font-size: 20px;
+	font-family: verdana arial
+
+
+}

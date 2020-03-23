@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.Conteiner{
+	
+	width: 1366px;
+	height: 664px;
+	background-repeat: no-repeat;
+	background-color: rgba(10,23,57,0.2);
+	animation: hover 6s infinite;
+    animation-direction: alternate;
+    margin: auto;
+
+}
+#colo{
+	width: 130px;
+	margin-top: 260px;
+	cursor: pointer;
+	
+}
+
+@keyframes hover {
+	0%, 20% {
+		background-image: url(imagens1/note.jpg);
+		background-size: cover; 
+	}
+	25%, 55% {
+		background-image: url(imagens1/cei.jpg);
+		background-size: cover;
+	}
+	
+	60%, 80% {
+		background-image: url(imagens1/notei.jpg);
+		background-size: cover;
+	}
+	85%, 100% {
+		background-image: url(imagens1/ceiu.jpg);
+		background-size: cover;
+	}
+}
+h4{
+	color: white;
+	font-size: 100px;
+	margin-top: -320px;
+	text-align: center;
+	font-family: MerryChristmasFlake;
+	
+	
+}
+a{
+	text-decoration:none;
+}
+@font-face {
+
+      font-family: "MerryChristmasFlake";
+      src: url("MerryChristmasFlake.ttf") format("truetype");
+
+      }
+font-family:{
+	'MerryChristmasFlake';
+    src: url('fonte/MerryChristmasFlake.eot');
+    font-weight: normal;
+    font-style: normal;
+ }

@@ -1,0 +1,56 @@
+#DivRodape{
+    position: absolute;
+    top: auto;
+    height:100%;
+    text-align: center;
+    width: 100%;
+    background-image: url("../imagens/user.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-position: center;
+
+    
+}
+#DivLateral{
+    
+    position:relative;
+    border-width:2px;
+    width:50%;
+    height:650px;
+    background-color:#1C1C1C;
+    float: right;
+
+}
+#DivA{
+
+    background-image: url("../imagens/foco.jpeg");
+    background-attachment: cover;
+    background-size:1000px; 
+    background-color:   #1C1C1C; 
+    background-repeat: no-repeat; 
+
+    position: relative;
+    border-width:2px;
+    width: 50%;
+    height: 650px;
+    left:0px;
+    float: left;
+}
+#text{
+    width:550px;
+    height:450px;
+    background-color:#1C1C1C; 
+    border-radius: 7px
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; 
+}

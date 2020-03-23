@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bathica - A Gente Conta ;)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="icon" type="x-icon" href="Imagens/iconLogo.png">
+	<link rel="stylesheet" type="text/css" href="estiloEmpuxo.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<aside id="logo">
+			<div id="iconMenu">
+		    	<img src="Imagens/iconFoto.png">
+		    </div>
+			<h6 id="logoText">Báthica</h6>
+		</aside>
+		<nav id="menu-1">
+			<ul>
+				<li><a href="siteHome.htm">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>EMPUXO</h1>
+		<a href="#">
+			<img src="Imagens/down-arrow.png">
+		</a>
+	</section>
+	<nav id="menu-2">
+		<ul>
+			<li><a href="#oQueE">O que é?</a></li>
+			<li><a href="#howTo">Como calcular?</a></li>
+			<li><a href="#ap">Aplicação</a></li>
+		</ul>
+	</nav>
+	<section id="oQueE">
+		<br>
+		<h1>O que é?</h1>
+		<aside>
+			<div></div>
+			<p>
+				Ao entrarmos em uma piscina, nos sentimos mais leves do que quando estamos fora dela.
+				Isto acontece devido a uma força vertical para cima exercida pela água a qual chamamos Empuxo, e a representamos por .
+				O Empuxo representa a força resultante exercida pelo fluido sobre um corpo. Como tem sentido oposto à força Peso, causa o efeito de leveza no caso da piscina.
+				A unidade de medida do Empuxo no SI é o Newton (N).
+				Foi o filósofo, matemático, físico, engenheiro, inventor e astrônomo grego Arquimedes (287a.C. - 212a.C.) quem descobriu como calcular o empuxo.
+				Arquimedes descobriu que todo o corpo imerso em um fluido em equilíbrio, dentro de um campo gravitacional, fica sob a ação de uma força vertical, com sentido oposto à este campo, aplicada pelo fluido, cuja intensidade é igual a intensidade do Peso do fluido que é ocupado pelo corpo.
+			</p>	
+		</aside>
+	</section>
+	<section id="howTo">
+		<h1>Como calcular</h1>
+		<aside id="fotos">
+			<a href="#calcular"><div><h2>Como Calcular</h2></div></a>
+			<a href="#saiba"><div><h2>Saiba mais</h2></div></a>
+		</aside>
+		<aside id="calcular">
+			<p>
+				Multiplique o volume × densidade × gravidade. Quando se tem valores para o volume do seu objeto (em metros 3), a densidade do seu fluido (em quilos/metro3) e a força de gravidade (ou a força para baixo do seu sistema), encontrar a força de empuxo é fácil. Simplesmente multiplique essas três quantidades para encontrar a força em newtons.
+			</p>
+		</aside>
+		<aside id="saiba">
+			<p>
+			O valor do empuxo não depende da densidade do corpo que é imerso no fluido, mas podemos usá-la para saber se o corpo flutua, afunda ou permanece em equilíbrio com o fluido:
+								Se:
+									densidade do corpo > densidade do fluido: o corpo afunda
+									densidade do corpo = densidade do fluido: o corpo fica em equilíbrio com o fluido
+									densidade do corpo < densidade do fluido: o corpo flutua na superfície do fluido
+			</p>
+		</aside>
+	</section>
+		<div id="ap" class="conteiner-espaco">
+		<form class="form-contact" tabindex="1" name="forms">
+			<span class="form-contact-span">Aplicação</span>
+			<input id="ip1" type="number" name="valorz" placeholder="Espaço inicial(km)" class="form-contact-input" />
+			<input id="ip2" type="number" name="volu" placeholder="Velocidade(km/h)" class="form-contact-input" />
+			<input id="ip3" type="number" name="gravita" placeholder="Tempo(h)" class="form-contact-input" />
+			<input type="button" onclick="empuxo();" class="form-contact-button" value="Calcular">
+			
+			<div id="msg" class="mostrar-valor">
+			</div>
+		</form>		
+	</div>
+	<footer>
+		<div id="logo">
+			<h1>BÁTHICA</h1>
+			<p>A Gente Conta</p>
+		</div>
+		<div id="newsletter">
+			<form>
+				<label for="input1">Fique informado ;)</label>
+				<input type="email" id="input1" placeholder="Digite seu e-mail!">
+				<button type="submit">
+					<img src="Imagens/envelope.png">
+				</button>
+			</form>
+		</div>
+	</footer>
+	<a href="#" class="botao"><i class="fas fa-arrow-up"></i></a>
+	<script type="text/javascript">
+			function empuxo(){
+				var densidade=forms.valorz.value;
+        		var volume=forms.volu.value;
+        		var gravidade=forms.gravita.value;
+        		var empuxo=densidade*volume*gravidade;	
+        		document.getElementById("msg").innerHTML ="O valor do Empuxo é igual a "+empuxo;
+			}
+		</script>
+</body>
+</html>

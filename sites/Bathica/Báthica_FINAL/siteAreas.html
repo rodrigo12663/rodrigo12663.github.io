@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bathica - A Gente Conta ;)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="icon" type="x-icon" href="Imagens/iconLogo.png">
+	<link rel="stylesheet" type="text/css" href="estiloAreas.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<aside id="logo">
+			<div id="iconMenu">
+		    	<img src="Imagens/iconFoto.png">
+		    </div>
+			<h6 id="logoText">Báthica</h6>
+		</aside>
+		<nav id="menu-1">
+			<ul>
+				<li><a href="siteHome.htm">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>GEOMETRIA</h1>
+		<a href="#">
+			<img src="Imagens/down-arrow.png">
+		</a>
+	</section>
+	<nav id="menu-2">
+		<ul>
+			<li><a href="#oQueE">O que é?</a></li>
+			<li><a href="#howTo">Como calcular?</a></li>
+			<li><a href="#ap">Aplicação</a></li>
+		</ul>
+	</nav>
+	<section id="oQueE">
+		<br>
+		<h1>O que é?</h1>
+		<aside>
+			<div></div>
+			<p>
+				A geometria é uma área da matemática que estuda as formas geométricas desde comprimento, área e volume. O vocábulo geometria corresponde a união dos termos “geo” (terra) e “metron” (medir), ou seja, a “medida de terra”.
+
+				A Geometria é dividida em três categorias:
+				<br><br>
+				<a href="https://www.todamateria.com.br/matematica/geometria/">Geometria Analítica</a>
+				<br>
+				<a href="https://www.todamateria.com.br/matematica/geometria/">Geometria Plana</a>
+				<br>
+				<a href="https://www.todamateria.com.br/matematica/geometria/">Geometria Espacial</a>
+				<br><br>
+				Assim, a geometria analítica, também chamada de geometria cartesiana, une conceitos de álgebra e geometria através dos sistemas de coordenadas. Os conceitos mais utilizados são o ponto e a reta.
+
+				Enquanto a geometria plana ou euclidiana reúne os estudos sobre as figuras planas, ou seja, as que não 	apresentam volume, a geometria espacial estuda as figuras geométricas que possuem volume e mais de uma dimensão.
+			</p>	
+		</aside>
+	</section>
+	<section id="howTo">
+		<h1>Como calcular</h1>
+		<aside id="fotos">
+			<a href="#triangulo"><div><h2>Triângulos</h2></div></a>
+			<a href="#quadrado"><div><h2>Quadrados</h2></div></a>
+			<a href="#retangulo"><div><h2>Retângulos</h2></div></a>
+		</aside>
+		<aside  id="triangulo">
+			<p>
+			A área do triângulo pode ser calculada através das medidas da base e da altura da figura. Lembre-se que o triângulo é uma figura geométrica plana formada por três lados.
+			Contudo, há diversas maneiras de calcular a área de um triângulo, sendo que a escolha é feita de acordo com os dados conhecidos no problema.
+			Acontece que muitas vezes, não temos todas as medidas necessárias para fazer esse cálculo.
+			Nestes casos, devemos identificar o tipo de triângulo (retângulo, equilátero, isósceles ou escaleno) e levar em consideração as suas características e propriedades para encontrar as medidas que necessitamos.
+			</p>
+		</aside>
+		<aside id="quadrado">
+			<p>
+			A área do quadrado corresponde ao tamanho da superfície dessa figura. Lembre-se que o quadrado é um quadrilátero regular que apresenta quatro lados congruentes (mesma medida).
+			Além disso, ele possui quatro ângulos internos de 90°, chamados de ângulos retos. Assim, a soma dos ângulos internos do quadrado totaliza 360°
+			</p>
+		</aside>
+		<aside id="retangulo">
+			<p>
+			A área do retângulo corresponde ao produto da medida da base pela altura da figura, sendo expressa pela fórmula:
+			A=b.h.Onde,
+			A: área
+			<br>
+			b: base
+			<br>
+			h: altura
+			</p>
+		</aside>
+	</section>
+	<div id="ap" class="conteiner-espaco">
+		<form  class="form-contact" tabindex="1" name="forms">
+			<span class="form-contact-span">Aplicação</span>
+			  <input class="form-contact-input" name="base" type="text" id="lado1" name="base" placeholder="Digite um valor para base">
+			 <input class="form-contact-input" name="altura" type="number" id="lado2" name="altura" placeholder="Digite um valor para a altura">
+			 <input type="button" onclick="area();" class="form-contact-button" value="Calcular">
+				<select style="font-family: 'Poppins', sans-serif; 	background: linear-gradient(to right, #9980FA, #5758BB); color: #fff; width: 90%;height: 70px; font-size: 25px; opacity: 0.8; text-overflow: ellipsis; cursor: pointer;" id="selecionar">
+					<option id="tri" value="1" style="color: #000; cursor: pointer;">Triângulo</option>
+					<option id="qua" value="2" style="color: #000; cursor: pointer;">Quadrado</option>
+					<option id="reta" value="3" style="color: #000; cursor: pointer;">Retângulo</option>
+				</select>
+		</form>	
+	</div>
+	<div class="mostrar-valor">
+			<div id="msg" style=" font-size: 1.5em; font-weight: 700;font-family: 'Poppins', sans-serif;"></div>
+
+		</div>
+	
+	<footer>
+		<div id="logo">
+			<h1>BÁTHICA</h1>
+			<p>A Gente Conta</p>
+		</div>
+		<div id="newsletter">
+			<form>
+				<label for="input1">Fique informado ;)</label>
+				<input type="email" id="input1" placeholder="Digite seu e-mail!">
+				<button type="submit">
+					<img src="Imagens/envelope.png">
+				</button>
+			</form>
+		</div>
+	</footer>
+	<a href="#" class="botao"><i class="fas fa-arrow-up"></i></a>
+	<script type="text/javascript">
+		function area(){
+			var base=forms.base.value;
+			var altura=forms.altura.value;
+			var result;
+			var selecionar = document.getElementById('selecionar').value;
+			// var areatri=document.getElementById("tri").value;
+			// var areaqua=document.getElementById("qua").value;
+			// var areareta=document.getElementById("reta").value;
+			  if(selecionar==1){
+				result=(base*altura)/2;
+				document.getElementById('msg').innerHTML=result;
+			}
+			  if(selecionar==2){
+				document.getElementById('lado1').placeholder="digite o lado do quadrado";
+				document.getElementById('lado2').placeholder="digite o segundo lado do quadrado";
+				result=base*base;
+				document.getElementById('msg').innerHTML=result;
+			}
+			  if(selecionar==3){
+				result=base*altura;
+				document.getElementById('msg').innerHTML=result;
+			}
+		}
+
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿body{
+	background-color:rgb(45,55,64);
+
+}
+
+input {
+	background-color:rgb(45,55,64);
+	border: 0;
+	border-bottom: 1px solid grey;
+	margin-bottom: 30px;
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+
+}
+
+#termos{
+	color: gray ;
+	font-family: times new roman;
+}
+#reg{
+	font-family: arial black;
+	color: gray;	
+}
+#botao{
+	text-align: center;
+	border-right-width: 100px;
+	background-color: rgb(31,206,109);
+	border-radius: 5px;
+	font-size: 17px;
+	padding-left: 60px;
+	padding-right: 60px;
+	cursor:pointer;
+
+}
+
+#botao1{
+	text-align: center;
+	border-right-width: 100px;
+	background-color: steelblue;
+	border-radius: 5px;
+	font-size: 17px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.cidade{
+	color: gray;
+	font-size: 17px;
+}
+
+#city {
+	background: none;
+	border-color: 1px black;
+	font-size: 17px;
+	color: gray;
+}
+
+.endereço{
+	color: gray;
+
+}
+.rodapé{
+	color: gray;
+	font-size: 17px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: 50px;
+	padding: 50px;
+	width: 1285px;
+	margin-left: -30px;
+}
+.login{
+	border: 1;
+	border-top: 3px solid gray;
+	border-left: 3px solid gray;
+	border-right: 3px solid gray;
+	border-bottom: 3px solid gray;
+}
+form{
+	margin-top: -60px;
+}
+
+#sla {
+	float: right;
+	margin-left: -300px;
+	margin-top: -19px;
+}
+#login{
+	text-align: center;
+}
+#ee{
+	margin-left: 60px;
+}

@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	font-size: 41px;
+	font-family: 'Pacifico', cursive;
+	width:300px;
+	text-decoration: none;
+	padding-top: 50px;
+	padding-left:  15px;
+}
+#abce{
+	width: 958px;
+	background-color:rgb(4,0,0,0.2);
+	margin-left: -20px;
+
+	
+}
+nav ul li{
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	background-color: white;
+	top:10px;
+	font-size: 29px;
+	padding-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: #ae3102
+}
+
+.are{
+	background-image:url(imagens/abcd.jpg);
+	padding-left:19px;
+	width: 978px;
+	background-repeat:no-repeat;
+	height: 500px;
+}
+em{
+	font-size: 28px;
+	color: white;
+	margin-left: 20px;
+	padding: 40px;
+	
+}
+section{
+	margin-top: 19px;
+	font-size: 26px;
+	color: white;
+	padding-left: 95px;
+
+}
+aside{
+	width:300px;
+	float: right;
+	margin-right:  98px;
+	
+}
+form{
+	margin-top: -290px;
+	padding-right: 195px;
+	background: rgba(4, 0, 0, 0.2); 
+	margin-right: 136px;
+	border:2px solid black;
+	height: 200px;
+}
+form{
+	width: 40px;
+	height: 330px;
+}
+input{
+	margin-top: 39px;
+	border-style:  2px solid black;
+	margin-right: 8px;
+	margin-left: 30px;
+	width: 155px;
+	height: 18px;
+
+}
+textarea{
+	margin-top: 26px;
+	padding-right: 10px;
+	margin-left: 20px;
+	border-style: 1px solid black;
+}
+img{
+	
+	background-color:#020894;
+	color: blue;
+	margin-right: 10px;
+	margin-right: 20px;
+	margin-bottom: -6px;
+}
+img{
+	width: 16px;
+	height: 22px;
+	box-sizing:content-box;
+	padding: 5px;
+	margin-top: 12px;
+	margin-left: -13px;
+	margin:all;
+
+}
+ul {
+  list-style-image: url("imagens/ercd.jpg");
+
+}
+b{
+	font-size: 25px;
+	margin-top: -4px;
+	font-family: font-family: 'Saira', sans-serif;
+	color:#C0C0C0;
+	text-decoration: none;
+	position: absolute;
+	margin-left:5px;
+
+}
+figure{
+	float: right;
+	margin-right: 700px;
+	margin-top: 75px;
+	color: white; 
+	padding-left: 15px;
+}
+#saa{
+	color: red;
+}

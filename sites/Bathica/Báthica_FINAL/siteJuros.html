@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bathica - A Gente Conta ;)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="icon" type="x-icon" href="Imagens/iconLogo.png">
+	<link rel="stylesheet" type="text/css" href="estiloJuros.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<aside id="logo">
+			<div id="iconMenu">
+		    	<img src="Imagens/iconFoto.png">
+		    </div>
+			<h6 id="logoText">Báthica</h6>
+		</aside>
+		<nav id="menu-1">
+			<ul>
+				<li><a href="siteHome.htm">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>JUROS</h1>
+		<a href="#">
+			<img src="Imagens/down-arrow.png">
+		</a>
+	</section>
+	<nav id="menu-2">
+		<ul>
+			<li><a href="#oQueE">O que é?</a></li>
+			<li><a href="#howTo">Como calcular?</a></li>
+			<li><a href="#ap">Aplicação</a></li>
+		</ul>
+	</nav>
+	<section id="oQueE">
+		<br>
+		<h1>O que é?</h1>
+		<aside>
+			<div></div>
+			<p>
+				Seja na hora de tomar um empréstimo, de escolher um investimento ou mesmo quando se paga um boleto em atraso, lá estão os juros fazendo toda a diferença nas contas pessoais e familiares.
+				<br>
+				<a href="https://www.todamateria.com.br/juros-simples/">Formúla de juro simples:J=C.i.t</a>
+				<br>
+				<a href="https://www.todamateria.com.br/juros-simples/">J–Juros Simples</a>
+				<br>
+				<a href="https://www.todamateria.com.br/juros-simples/">	 C–Capital Aplicado</a>
+				<br>
+				<a href="https://www.todamateria.com.br/juros-simples/">	 I– Taxa de Juros</a>
+				<br>
+				<a href="https://www.todamateria.com.br/juros-simples/">	 T–Tempo de Aplicação</a><br>
+				Calcular juros nem sempre é tarefa fácil. Existem diferentes tipos de juros e cálculos e formulas especíicas para cada um deles.Neste estudo você irá aprender como calcular juros e entender a diferença entre juros simples e juros compostos e ainda poderá tentar resolver os exercícios de juros.
+			</p>	
+		</aside>
+	</section>
+	<section id="howTo">
+		<h1>Como calcular</h1>
+		<aside id="fotos">
+			<a href="#capita"><div><h2>Capital</h2></div></a>
+			<a href="#tempo"><div><h2>Tempo</h2></div></a>
+			<a href="#taxa"><div><h2>Taxa</h2></div></a>
+		</aside>
+		<aside id="capita">
+			<p>
+			O juro é a remuneração pelo empréstimo do dinheiro. Ele existe porque a maioria das pessoas prefere o consumo imediato, e está disposta a pagar um preço por isto. ... Os Juros podem ser simples ou compostos: JUROS SIMPLES: o juro de cada intervalo de tempo sempre é calculado sobre o capital inicial emprestado ou aplicado..
+			</p>
+		</aside>
+		<aside id="tempo">
+			<p>
+			Um período de capitalização é cada um dos períodos de tempo iguais e adjacentes em que pode ser dividido o prazo de aplicação (a duração) de uma aplicação financeira. O pagamento de juros tem lugar após cada período de capitalização.
+			</p>
+		</aside>
+		<aside id="taxa">
+			<p>
+			Qual é a diferença entre taxas de juro nominais e reais? A taxa de juro é o custo do crédito ou a remuneração da poupança. Se um particular pedir um empréstimo a um banco, a taxa de juro é o que essa pessoa paga pelo empréstimo. ... A taxa de juro nominal é a taxa acordada e paga.
+			</p>
+		</aside>
+	</section>
+	<div id="ap" class="conteiner-espaco">
+		<form class="form-contact" tabindex="1" name="forms">
+			<span class="form-contact-span">Aplicação</span>
+			<input id="ip1" type="number" name="valorz" placeholder="Capital" class="form-contact-input" />
+			<input id="ip2" type="number" name="taxaz" placeholder="Taxa" class="form-contact-input" />
+			<input id="ip3" type="number" name="tempoz" placeholder="Tempo" class="form-contact-input" />
+			<input type="button" onclick="juros();" class="form-contact-button" value="Calcular">
+			
+			<div id="msg" class="mostrar-valor">
+			</div>
+		</form>		
+	</div>
+	<footer>
+		<div id="logo">
+			<h1>BÁTHICA</h1>
+			<p>A Gente Conta</p>
+		</div>
+		<div id="newsletter">
+			<form>
+				<label for="input1">Fique informado ;)</label>
+				<input type="email" id="input1" placeholder="Digite seu e-mail!">
+				<button type="submit">
+					<img src="Imagens/envelope.png">
+				</button>
+			</form>
+		</div>
+	</footer>
+	<a href="#" class="botao"><i class="fas fa-arrow-up"></i></a>
+	<script type="text/javascript">
+	function juros(){      
+        		var capital=forms.valorz.value;
+        		var taxa=forms.taxaz.value;
+        		var tempo=forms.tempoz.value;	
+        		var j=parseInt(taxa)/100*parseInt(capital);
+        		var m=(parseInt(capital) +parseInt(j)*parseInt(tempo));
+        		document.getElementById("msg").innerHTML ="Seu juros é "+j+"\n" + "Seu montante é "+m;
+        		if(isNaN(capital)|| isNaN(taxa) || isNaN(tempo) ){
+        			document.getElementById("msg").innerHTML="só valores numéricos";
+     		}
+
+   }     		
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Bathica - A Gente Conta ;)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="icon" type="x-icon" href="Imagens/iconLogo.png">
+	<link rel="stylesheet" type="text/css" href="estiloDeslocamento.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<aside id="logo">
+			<div id="iconMenu">
+		    	<img src="Imagens/iconFoto.png">
+		    </div>
+			<h6 id="logoText">Báthica</h6>
+		</aside>
+		<nav id="menu-1">
+			<ul>
+				<li><a href="siteHome.htm">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero">
+		<h1>ESPAÇO</h1>
+		<a href="#">
+			<img src="Imagens/down-arrow.png">
+		</a>
+	</section>
+	<nav id="menu-2">
+		<ul>
+			<li><a href="#oQueE">O que é?</a></li>
+			<li><a href="#howTo">Como calcular?</a></li>
+			<li><a href="#ap">Aplicação</a></li>
+		</ul>
+	</nav>
+	<section id="oQueE">
+		<br>
+		<h1>O que é?</h1>
+		<aside>
+			<div></div>
+			<p>
+				O Espaço, na física, representado pela letra S, é usado para definir a posição de um corpo ou seu comprimento. É usado para identificar a posição de um corpo relacionado a um ponto de referência, ou a área que ele ocupa. Suas unidades de medida são milímetro, centímetro, decímetro, metro, decâmetro, e kilometro. No Sistema Internacional de Medidas, se usa o metro.
+
+				O espaço é calculado através da:
+				<br><br>
+				<a href="https://www.todamateria.com.br/movimento-uniforme/">Espaço inicial</a>
+				<br>
+				<a href="https://www.todamateria.com.br/movimento-uniforme/">Velocidade</a>
+				<br>
+				<a href="https://www.todamateria.com.br/movimento-uniforme/">Tempo</a>
+				<br>
+				<a href="https://www.todamateria.com.br/movimento-uniforme/">Fórmula: S = So+(Vo.t)</a>
+				<br><br>
+				Espaço é a posição (localizado) de um objeto em certo instante (momento) em relação a um determinado referencial: movimento e repouso.
+			
+				Espaço físico é uma concepção da Física e diz respeito ao meio que nos envolve. No entanto, na física existe muita discussão a respeito da definição mais precisa e abrangente para a referida expressão.
+			</p>	
+		</aside>
+	</section>
+	<section id="howTo">
+		<h1>Como calcular</h1>
+		<aside id="fotos">
+			<a href="#espaco"><div><h2>Espaço inicial</h2></div></a>
+			<a href="#velocidade"><div><h2>Velocidade</h2></div></a>
+			<a href="#tempo"><div><h2>Tempo</h2></div></a>
+		</aside>
+		<aside id="espaco">
+			<p>
+			Espaço, na física, representado pela letra S, é usado para definir a posição de um corpo ou seu comprimento. É usado para identificar a posição de um corpo relacionado a um ponto de referência, ou a área que ele ocupa. Suas unidades de medida são milímetro, centímetro, decímetro, metro, decâmetro, e kilometro. No Sistema Internacional de Medidas, se usa o metro.
+			</p>
+		</aside>
+		<aside id="velocidade">
+			<p>
+			A velocidade de um corpo é dada pela relação entre o deslocamento de um corpo em determinado tempo. Pode ser considerada a grandeza que mede o quão rápido um corpo se desloca
+				
+			A análise da velocidade se divide em dois principais tópicos: Velocidade Média e Velocidade Instantânea. É considerada uma grandeza vetorial, ou seja, tem um módulo (valor numérico), uma direção (Ex.: vertical, horizontal,...) e um sentido.
+		
+			No Sistema Internacional (S.I.), a unidade padrão de velocidade é o m/s. Por isso, é importante saber efetuar a conversão entre o km/h e o m/s, que é dada pela seguinte relação:
+			</p>
+		</aside>
+		<aside id="tempo">
+			<p>
+			O tempo na mecânica newtoniana é absoluto e uniforme. Entendendo-se por absoluto o fato de existir independentemente da matéria e do espaço, e uniforme porque em qualquer "ocasião'', ele transcorre da mesma forma, não evoluindo "mais depressa'' ou "mais devagar'' em função da região do espaço, ou da presença de matéria, do fenômeno físico que ocorra, ou de qualquer outra circunstância. 
+			Nas palavras de Newton: "o tempo absoluto, verdadeiro e matemático, por si mesmo e por sua própria natureza flui igualmente sem relação com nada de externo, e com outro nome, é chamado de duração''.
+				
+			O tempo é absoluto também no sentido que dois eventos simultâneos, ou seja, que ocorrem no mesmo instante para um observador o serão para qualquer outro observador inercial, ou seja independente do movimento de velocidade relativa constante de um em relação ao outro.
+			</p>
+		</aside>
+	</section>
+	<div id="ap"class="conteiner-espaco">
+		<form class="form-contact" tabindex="1">
+			<span class="form-contact-span">Aplicação</span>
+			<input id="ip1" type="number" placeholder="Espaço inicial(km)" class="form-contact-input" >
+			<input id="ip2" type="number" placeholder="Velocidade(km/h)" class="form-contact-input" >
+			<input id="ip3" type="number" placeholder="Tempo(h)" class="form-contact-input" >
+			<input type="button" onclick="calc();" class="form-contact-button" value="Calcular">
+			<script type="text/javascript">
+		
+			function calc(){
+				var so = parseInt(document.getElementById('ip1').value);
+				var v = parseInt(document.getElementById('ip2').value);
+				var t = parseInt(document.getElementById('ip3').value);
+
+				var espaco = so + (v * t);
+
+				if (espaco >= 0) {
+					document.getElementById('msg').innerHTML=(espaco + "km");
+				}
+				else if(isNaN(so) || isNan(v) || isNaN(t)) {
+					document.getElementById('msg').innerHTML = "Digite valores numéricos em todas as caixas";
+				}
+			}
+
+	</script>
+			<div id="msg" class="mostrar-valor">
+			</div>
+		</form>		
+	</div>
+	<footer>
+		<div id="logo">
+			<h1>BÁTHICA</h1>
+			<p>A Gente Conta</p>
+		</div>
+		<div id="newsletter">
+			<form>
+				<label for="input1">Fique informado ;)</label>
+				<input type="email" id="input1" placeholder="Digite seu e-mail!">
+				<button type="submit">
+					<img src="Imagens/envelope.png">
+				</button>
+			</form>
+		</div>
+	</footer>
+	<a href="#" class="botao"><i class="fas fa-arrow-up"></i></a>
+	<script type="text/javascript"></script>
+</body>
+</html>

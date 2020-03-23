@@ -1,0 +1,16 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image:url(imagens/colo.jpg); 
+	background-repeat: no-repeat;
+	margin-left: 40px;
+
+}
+.et{
+	background-color: white;
+	width: 399px;
+	height: 300px;
+
+}

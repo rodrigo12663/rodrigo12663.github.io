@@ -1,0 +1,521 @@
+*,html{
+	padding: 0;
+	margin:0;
+	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif
+}
+.apresentacao{
+	position: absolute;
+	margin-top: -550px;
+	margin-left: 700px;
+} 
+.primeira{
+	background: white;
+	width:100%;
+	height: 837px;
+	margin-top: -20px;
+}
+p{
+	color: white;
+	font-weight: normal;
+	text-align: justify;
+}
+.segunda{
+	margin-top: 40px;
+	width:100%;
+	height: 853px;
+}
+.terceira{
+	margin-top: -160px;
+	background:white;
+	height: 692px;
+}
+.quarta{
+	margin-top: -10px;
+
+	width:100%;
+	height: 679px;
+}
+.quinta{
+	width: 100%;
+	height: 400px;
+	background-color:green;
+
+}
+.img-perfil{
+	margin: 0;
+	padding: 0 45px;
+	margin-top:70px;
+}
+.text-apre{
+
+	font-size: 50px;font-family: 'Montserrat', sans-serif;
+	color: #2980b9;
+}
+.botao:hover{
+	color: #2980b9;
+}
+
+.sobre{
+
+	text-align: center;
+	position: relative;
+}
+.nome{
+	font-size:100px;
+	text-align: center;
+	color: #ecf0f1;
+	font-weight: normal;
+}
+.logo{
+	padding-top:20px;
+	width: 100px;
+	height:100px;
+	margin-top: -29px;
+	position: absolute;
+}
+
+#quem{
+	width: 20px;
+	height: 200px;
+	margin:20px;
+
+	color: #2980b9;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 15px;
+}
+#quemss{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 15px;
+}
+.card{
+	background:#2980b9;
+
+}
+#quemT{
+	width: 230px;
+	margin:20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 15px;
+}
+#quems{
+	width: 500px;
+	margin:20px;
+	color: #2980b9;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 26px;
+
+}
+
+.sobre{
+	width: 630px;
+	height: auto;
+	font-size: 17px;
+	color: #2980b9;
+	text-align: justify;
+	font-weight: normal;
+	background: ;
+	padding: 4px 25px;
+}
+#texto-colapse{
+	color: white;
+	background: 
+}
+nav{
+	height: 80px;
+
+	background:#2980b9;
+	
+}
+#sobre{
+	color: #2980b9;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+#projeto{
+	color: #2980b9;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+
+      font-family: "Azonix";
+      src: url("../fontes/Azonix.otf") format("truetype");
+        font-family: "Reckoner";
+      src: url("../fontes/Reckoner.otf") format("truetype");
+}
+a{
+	
+	list-style: none;
+	outline: none;
+	font-size: 12px;
+	animation-name: mudarMenu;
+    animation-duration: 9s;
+   	animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;  
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+}
+@keyframes mudarMenu {
+     	0%,100%{ text-shadow:0 0 50px   #00a8ff; }
+        25%{ text-shadow:0 0 50px   #00a8ff; }
+        50%{ text-shadow:0 0 50px  #00a8ff; }
+        75%{ text-shadow:0 0 50px  #00a8ff;}
+        100%{ text-shadow:0 0 50px #00a8ff;} 
+}
+
+nav ul li{
+	margin-top: -5px;
+	margin-left: 35px;
+}
+a{
+	
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	animation-name: transformar;
+    animation-duration: 9s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav ul li a{
+	
+	font-size: 15px;
+}
+/*efeitos para o titulo com o nome*/
+@keyframes transformar {
+	0%,100%{ text-shadow:0 0 50px   #00a8ff; }
+        25%{ text-shadow:0 0 50px   #00a8ff; }
+        50%{ text-shadow:0 0 50px  #00a8ff; }
+        75%{ text-shadow:0 0 50px  #00a8ff;}
+        100%{ text-shadow:0 0 50px #00a8ff;} 
+}
+
+.galeria{
+	color:  #2980b9;
+	margin-top: 90px;
+	text-align: center;
+}
+small{
+	margin-left: 210px;
+}
+@media screen and (min-width: 480px){
+	.logo{
+		margin-left: 102px;
+	}
+	i{
+		margin-left: -840px;
+	}
+	.perfil{
+		padding: 0 90px;
+		width: 40px;
+		height: 400px;
+		margin-left: -100px;
+	}
+	.apresentacao{
+	margin-top: -220px;
+	margin-left: 40px;
+	}
+	
+	#text{
+		font-size: 30px;
+	}
+	#texts{
+		font-size: 20px;
+	}
+	#quem{
+		width: 415px;
+		margin:10px;
+		color: #2980b9;
+		font-family: 'Montserrat', sans-serif;
+		text-align: justify;
+		font-weight: normal;
+		font-size: 10px;
+	}
+	#user{
+		margin-top: 20px;
+		margin-left: -60px;
+	}
+	
+	#card12{
+		margin-left: 0px ;
+	}
+	#users{
+		margin-left: 0px;
+	}
+	
+	.terceira{
+		margin-top: 330px;
+	}
+	.quarta{
+		margin-top: 730px;
+	}
+	footer{
+		
+		margin-top: -300px;
+
+	}
+	.quinta{
+	width: 100%;
+	height: 200px;
+	margin-top: 1700px;
+	}
+	p #rodrigo{
+		margin-left: -134px;
+	}
+}
+
+@media screen and (min-width: 880px){
+	.terceira{
+		margin-top: -50px;
+	}
+	.quarta{
+		height: 679px;
+		margin-top: -50px;
+	}
+	#quem{
+		width: 500px;
+		margin:20px;
+		color: #2980b9;
+		font-family: 'Montserrat', sans-serif;
+		text-align: justify;
+		font-weight: normal;
+		font-size: 15px;
+	}
+
+	i{
+		margin-left: -330px;
+		margin-top: 10px;
+	}
+	.perfil{
+
+	margin: 0;
+	padding: 0 55px;
+	margin-top:10px;
+	}
+	.apresentacao{
+	position: absolute;
+	margin-top: -550px;
+	margin-left: 700px;
+	} 
+	
+	#text{
+		font-size: 50px;
+	}
+	#geral{
+		background:white;
+		width: 1310px;
+		height: 600px;
+		margin-top: 90px;
+
+	}
+	#card-grup{
+		padding: 0 20px;
+		margin-top: 80px;
+	}
+	#card12{
+		margin-left: 560px;
+	}
+	#users{
+		margin-left: 288px;
+	}
+	footer{
+		margin-top: 00px;
+		background-color: blue;
+	}
+
+	.quinta{
+	width: 100%;
+	height: 50px;
+	background-color:green;
+	margin-top:-10px;
+	
+}
+	
+
+}
+
+#primeira-sobre{
+	width: 100%;
+	height: 300px;
+
+}
+.sobre{
+	width: 50%;
+	height: 200px;
+	background:white;
+}
+.tecnologias{
+	width: 50%;
+	height: 300px;
+	background:white;
+	float: right;
+	margin:auto;
+	position: relative;
+	top:-64%;
+	margin-left: 16px;
+}
+#geral{
+	background:white;
+	width: 100%;
+	height: 400px;
+	
+}
+#icon-sobre{
+	width: 50px;
+	height: 50px;
+}
+#icon-sobres{
+	width: 424px;
+	height: 200px;
+}
+h5{
+	margin: 20px;
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-weight: normal;
+}
+.card_img{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin:25px;
+}
+
+
+#progresso{
+	width: 40%;
+	margin: 20px;
+}
+
+
+
+/*galeria de projetos*/
+
+.lbox{
+
+	visibility: hidden;
+	opacity: 0;	
+	display: none;
+}
+.lu{
+	width:450px;
+	list-style: none;
+	display: flex;
+	margin: 10px auto;
+		position: absolute;
+	
+}
+.min{
+	width: 200px;
+	height: 200px;
+	padding:10px; 
+
+}
+.lbox:target{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	width: 500px;
+	height: 420px;
+	top:100px;
+	margin-left: 410px;
+	left:0;
+	background:#2980b9;
+	position: fixed;
+}
+.box_img{
+	width: 600px;
+	margin:83px auto;
+	margin-left: 204px;
+}
+.btns{
+	columns: black;
+	font-family: 'Arial';
+	text-decoration: none;
+	position: absolute;
+	width: 50px;
+	color: black;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+}
+#prev{
+	margin-left:-263px; 
+	font-size: 40px;
+	margin-top: 60px;
+
+}
+#next{
+	font-size: 40px;
+	margin-top: 60px;
+	position: absolute;
+	margin-left:325px; 
+
+	
+}
+#close{
+	margin-top: -120px;
+	margin-left: 585px;
+	
+}
+.mine{
+	width: 500px;
+	height: 450px;
+	margin-top: -82px;
+	top: 0;
+	margin-left: -205px;
+	left:0;
+	align-items: center;
+	justify-content: center;
+}
+.lbox:target .box_img img{
+	opacity: 1;
+	
+}
+
+
+
+/*galeria de sites*/
+
+
+
+.lboxs{
+
+	visibility: hidden;
+	opacity: 0;	
+	display: none;
+}
+.lu{
+	width:450px;
+	list-style: none;
+	display: flex;
+	margin: 10px auto;
+		position: absolute;
+	
+}
+.min{
+	width: 200px;
+	height: 200px;
+	padding:10px; 
+
+}

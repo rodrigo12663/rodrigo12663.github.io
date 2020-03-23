@@ -1,0 +1,47 @@
+#navMenu{
+	background: red;
+	float: left;		
+	z-index: 100;
+	height: 100vh;
+	width: auto;
+	position: fixed;
+	display: flex;
+}
+#navMenu ul{
+	display: flex;
+	flex-direction: column;
+	background: yellow;
+}
+#navMenu ul li{
+	background: green;
+	list-style: none;
+}
+#sectionPrincipal{
+	background-image: url(Imagens/bannerPrincipal.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	display: inline-flex;
+	position: relative;
+	z-index: 1;
+}
+#sectionPrincipal:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, #34495e, #1abc9c);
+	opacity: 0.4;
+	z-index: -1;
+}
+#conteudoPrincipal{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+#conteudoPrincipal h1{
+	color: white;
+}
