@@ -17,7 +17,7 @@
 			case 8:
 				echo "descanse pequeno gafanhoto";
 				break;
-				defaut:
+				// defaut:
 				
 		}
 

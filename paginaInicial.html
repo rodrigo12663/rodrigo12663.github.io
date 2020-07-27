@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu portifólio</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Description" content="Enter your description here"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></head>
+	<script src="css/WOW-master/dist/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<script type="text/javascript">
+		function typeWritter(texto,idElemento,tempo){
+			var char = texto.split('').reverse();
+			var typer = setInterval(function () {
+				if (!char.length) return clearInterval(typer);
+				var next = char.pop();
+				document.getElementById('text').innerHTML +=next;
+			}, tempo);
+		}
+		typeWritter('Olá! Me Chamo Rodrigo','log',92);
+	</script>
+
+</head>
+	
+<body>
+	<div id="primeira" class="primeira">
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+			<a class="navbar-brand" href="#"><img id="logo" class="logo" src="css/imagens/rodri.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="form-inline my-2 my-lg-0">
+					<ul class="navbar-nav my-2 my-lg-0">
+						<li class="nav-item active">
+						  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#info">Informações <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#projetos">Projetos <span class="sr-only">(current)</span></a>
+						</li>
+						
+					  </ul>
+				</div>
+			  
+			  
+			  
+			</div>
+		  </nav>
+			<div id="home" class="container-fluid py-5">
+				<div class="row row-cols-2">
+				<div class="col">
+					<div class="">
+						<img id="perfil" class="wow fadeInLeft"   src="css/imagens/perfil.jpg">
+					</div>
+					
+
+				</div>
+				<div class="col">
+					<div  class="apresentacao">
+						<h1 id="text"  class="text-apre"></h1>
+						<h4 id="texts" style=" font-size: 20px;font-family: 'Montserrat', sans-serif;color:#2980b9	;" class="text-apre wow fadeIn"data-wow-delay="1.9s">Desenvolvedor Web Front-end e Backend</h1>
+						<form class="wow fadeInUp" data-wow-delay="2.1s" >
+								<a class="botao"  href="#sobre" role="button"aria-expanded="false">
+									<button  style="width:160px; height: 50px; color:white	;font-family: 'Montserrat', sans-serif; background:#2980b9;"type="button" class="btn btn-primary">Sobre mim</button>
+									</button>
+								</a>
+						</form>
+					</div> 		  
+				</div>
+				
+				</div>
+			</div>	
+	</div>
+
+	
+	<div id="info" class="segunda ">
+		<div class="d-flex justify-content-center"><h1  class="wow fadeIn " data-wow-delay="0.2s" id="sobre">Informações</h1></div>
+	
+		<div id="primeira-sobre" class="container-fluid py-3">
+			<div class="container-fluid">
+				<div class="row row-cols-2">
+				<div class="col">
+					<div class="sobre">
+						<h1 class="wow fadeIn px-2"  data-wow-delay="0.6s"  id="quems">Sobre Mim</h1>
+						<p class="wow fadeInUp px-2"data-wow-delay="0.9s"  id="quem">
+							Olá muito prazer ,sou um desenvolvedor web, atuo tanto na área de front-end como back-end, procuro sempre me esforçar ao máximo para fazer ótimos projetos, e tento ao máximo trazer a resolução para os problemas que surgem ao longo de um desenvolvimento de projeto,se possível aquilo que a empresa oferecer de tecnologia pretendo me habituar a mesma, facilitando assim o desenvolvimento profissional.
+						</p>
+					</div>
+			
+				</div>
+				<div class="col">
+					<div class="tecnologias">
+							<h3 id="quems" class="wow fadeIn px-3" data-wow-delay="1.3s">Tecnologias</h3>
+							<div id="progresso" class="progress wow fadeIn"  data-wow-delay="1.5s">
+								<div class="progress-bar progress-bar-striped progress-bar-animated  wow fadeInLeft"data-wow-delay="1.8s"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 80%">80% PHP</div>
+							</div>
+							<div id="progresso" class="progress wow fadeIn" data-wow-delay="1.8s">
+								<div class="progress-bar progress-bar-striped progress-bar-animated  wow fadeInLeft"data-wow-delay="2.1s"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 80%">75%Java</div>
+							</div>
+							<div id="progresso" class="progress wow fadeIn" data-wow-delay="2.1s">
+								<div class="progress-bar progress-bar-striped progress-bar-animated  wow fadeInLeft"data-wow-delay="2.9s"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 90%">90%  HTML E CSS</div>
+							</div>
+							<div id="progresso" class="progress wow fadeIn" data-wow-delay="2.4s">
+								<div class="progress-bar progress-bar-striped progress-bar-animated  wow fadeInLeft"data-wow-delay="3.4s"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 45%;">15% JAVA WEB</div>
+							</div>
+			
+							<div id="progresso" class="progress wow fadeIn" data-wow-delay="2.4s">
+								<div class="progress-bar progress-bar-striped progress-bar-animated  wow fadeInLeft"data-wow-delay="3.4s"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="60" style="width: 60%;">60% Javascript</div>
+							</div>
+						</div>		  
+				</div>
+					
+				</div>
+			</div>	
+			<div>
+				<div class="card-deck px-4">
+					<div id="card" class="card">
+						<center>
+							<img id="imgC" src="css/imagens/lideranca.png" class="card-img-top img-fluid" alt="...">
+						</center>
+					 
+					  <div class="card-body">
+						<h5 id="titleH" class="card-title">Liderança</h5>
+								<p id="quemT" class="card-text">Ser lider,é se doar ao máximo para os seus liderados, e procurar entender os mesmos de forma que haja um bom desenvolviemnto entre o lider e o liderado.</p>
+					  </div>
+					 
+					</div>
+					<div id="card" class="card">
+					  <center>
+							<img id="imgC"  src="css/imagens/grupo.png" class="card-img-top img-fluid" alt="...">
+					  </center>
+					  
+					  <div class="card-body">
+						<h5 id="titleH" class="card-title">Trabalho em Equipe</h5>
+								<p id="quemT" class="card-title">O trabalho em equipe é algo extremamente importante e eficaz para as empresas, desde que seja conduzido da maneira correta.</p>
+					  </div>
+					 
+					</div>
+					<div id="card" class="card">
+					  <center>
+							<img id="imgC"  src="css/imagens/compartilhar.png" class="card-img-top img-fluid" alt="...">
+					 </center> 
+					  <div class="card-body">
+						<h5  id="titleH" class="card-title">Comunicação</h5>
+								<p id="quemT" class="card-text">A comunicação é extremamente importanto, para desenvolvimento de projetos e principalmente para obter informações</p>
+					  </div>
+					  
+					</div>
+				  </div>
+			</div>
+<div>
+</div>
+</div>
+
+</div>
+	<div id="projetos" class="terceira" id="terceira" class="container-fluid">
+		
+		<section class="testes">
+			<h1 class="wow fadeIn px-2" data-wow-delay="0.2s" id="sobre">Projetos</h1>
+			<div  class="d-flex justify-content-center">
+			<ul id="tab" class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+				<li class="nav-item waves-effect waves-light">
+				<a  class="nav-link active" id="btproj" data-toggle="tab" href="#home-md" role="tab" aria-controls="home-md" aria-selected="true">Desenvolvimento</a>
+				</li>
+				<a href="#teste">
+					<li class="nav-item waves-effect waves-light">
+					<a id="btproj" class="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md" aria-selected="false">Designer</a>
+					</li>
+				</a>
+		  </ul>
+			</div>
+		  <div class="tab-content " id="myTabContentMD">
+			<div class="tab-pane fade show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
+				<CENTER>
+					<div class="row row-cols-1 row-cols-md-3 px-3  py-3">
+						<div class="col mb-4">
+						  <div  class="card ">
+							<img id="card-img" src="css/imagens/galeria/bathica.jpg" class="card-img-top" alt="...">
+							<div id="cardP" class="card-body">
+							  <h5  id="titleC"  class="card-title">Bathica</h5>
+							  <div class="d-flex justify-content-center">
+								<button id="buttonC" type="button"  data-toggle="modal" data-target="#modalQuickBathica" class="btn " data-toggle="modal">Visualizar site</button>
+								<div class="modal fade" id="modalQuickBathica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+									aria-hidden="true">
+									<div class="modal-dialog modal-lg" role="document">
+									  <div class="modal-content">
+										<div class="modal-body">
+							
+											<ul id="tab" class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+												<li class="nav-item waves-effect waves-light">
+												<a id="btproj"  class="nav-link active" id="home-tab-md" data-toggle="tab" href="#galeriaBathica" role="tab" aria-controls="home-md" aria-selected="true">Galeria</a>
+												</li>
+												<!-- Uma aplicação desenvolvida para fins matemáticos,foi usado html css e javascript, fizemos uma aplicação de juros,empuxo,geometria,espaço e volume. -->
+												<a href="#teste">
+													<li class="nav-item waves-effect waves-light">
+													<a id="btproj" class="nav-link" id="videosBathica" data-toggle="tab" href="#videosBathica" role="tab" aria-controls="profile-md" aria-selected="false">Vídeos</a>
+													</li>
+												</a>
+											</ul>
+										  <div class="row">
+											<div class="tab-content " id="myTabContentMD">
+												<div class="tab-pane fade show active" id="galeriaBathica" role="tabpanel" aria-labelledby="home-tab-md">
+													<div id="teste">
+														<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+															<ol class="carousel-indicators">
+															  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+															  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+															  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+															  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+															</ol>
+															<div class="carousel-inner">
+															  <div class="carousel-item active">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/img-sites/bathica_01.jpg" alt="First slide">
+															  </div>
+															  <div class="carousel-item">
+																<img id="imgCA"   class="img-fluid d-block" src="css/imagens/img-sites/bathica_03.jpg" alt="Second slide">
+															
+															  </div>
+															  <div class="carousel-item">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/bathic.jpg" alt="Third slide">
+															  </div>
+					
+															  <div class="carousel-item">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/img-sites/bathica_geometria.jpg" alt="Third slide">
+															  </div>
+															  
+															</div>
+															<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+															  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+															  <span class="sr-only">Previous</span>
+															</a>
+															<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+															  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+															  <span class="sr-only">Next</span>
+					
+															</a>
+														  </div>
+													
+													</div>
+												</div>
+							
+											
+							
+												<div class="tab-pane fade" id="videosBathica" role="tabpanel" aria-labelledby="profile-tab-md">
+											
+													<div class="row row-cols-1 row-cols-md-3 px-3  py-3">
+														<div class="col mb-4">
+														  <div id="cardss" class="card ">
+															<div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/bathica/inicial.mp4" type="video/mp4">	
+																	</video>
+															  </div>
+															<div class="card-body">
+															  <h5 class="card-title">Apresentação geral</h5>
+															 
+															</div>
+														  </div>
+														</div>
+														<div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/bathica/juros.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Aplicação de juros</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+					
+														  <div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/bathica/espaco.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Aplicação do espaço</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+					
+														  <div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/bathica/volume.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Aplicação de volume</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+														  <div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/bathica/" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Aplicação de volume</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+													
+													  </div>
+												</div>
+											</div>	
+											<p id="quemP" class="card-text">Uma aplicação desenvolvida para fins matemáticos,foi usado html css e javascript, fizemos uma aplicação de juros,empuxo,geometria,espaço e volume.</p>
+											<a id="btproj" type="button" class="nav-link active" data-dismiss="modal">Close</a>
+									  </div>
+									  
+								</div>
+							</div>  
+							</div>
+							</div>
+								  
+							  </div>
+							  
+							 
+							</div>
+						  </div>
+						
+						</div>
+					
+						<div class="col mb-4">
+							<div class="card ">
+							  <img id="card-img" src="css/imagens/galeria/multitec.jpg" class="card-img-top" alt="...">
+							  <div id="cardP" class="card-body">
+								<h5 id="titleC"  class="card-title">Multitec</h5>
+								<div class="d-flex justify-content-center">
+									<button id="buttonC" type="button" data-target="#modalQuickViewMulti" class="btn " data-toggle="modal">Visualizar site</button>
+									<div class="modal fade" id="modalQuickViewMulti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog modal-lg" role="document">
+								  <div class="modal-content">
+									<div class="modal-body">
+						
+										<ul id="tab" class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+											<li class="nav-item waves-effect waves-light">
+											<a id="btproj"  class="nav-link active" id="home-tab-md" data-toggle="tab" href="#galeriaMulti" role="tab" aria-controls="home-md" aria-selected="true">Galeria</a>
+											</li>
+											
+											<a href="#teste">
+												<li class="nav-item waves-effect waves-light">
+												<a id="btproj" class="nav-link" id="videos" data-toggle="tab" href="#videosMulti" role="tab" aria-controls="profile-md" aria-selected="false">Vídeos</a>
+												</li>
+											</a>
+										</ul>
+									  <div class="row">
+										<div class="tab-content " id="myTabContentMD">
+											<div class="tab-pane fade show active" id="galeriaMulti" role="tabpanel" aria-labelledby="home-tab-md">
+												<div id="teste">
+													<div id="carouselExampleIndicatorsGS" class="carousel slide" data-ride="carousel">
+														<ol class="carousel-indicators">
+														  <li data-target="#carouselExampleIndicatorsGS" data-slide-to="0" class="active"></li>
+														  <li data-target="#carouselExampleIndicatorsGS" data-slide-to="1"></li>
+														  <li data-target="#carouselExampleIndicatorsGS" data-slide-to="2"></li>
+														  <li data-target="#carouselExampleIndicatorsGS" data-slide-to="3"></li>
+														  <li data-target="#carouselExampleIndicatorsGS" data-slide-to="4"></li>
+														</ol>
+														<div class="carousel-inner">
+														  <div class="carousel-item active">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/galeria/multitec.jpg" alt="First slide">
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"   class="img-fluid d-block" src="css/imagens/img-sites/multi_05.jpg" alt="Second slide">
+														
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/img-sites/multi_02.jpg" alt="Third slide">
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/img-sites/multi_04.jpg" alt="Third slide">
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/img-sites/multi_01.jpg" alt="Third slide">
+														  </div>
+														  
+														</div>
+														<a class="carousel-control-prev" href="#carouselExampleIndicatorsGS" role="button" data-slide="prev">
+														  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+														  <span class="sr-only">Previous</span>
+														</a>
+														<a class="carousel-control-next" href="#carouselExampleIndicatorsGS" role="button" data-slide="next">
+														  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+														  <span class="sr-only">Next</span>
+														</a>
+													  </div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="videosMulti" role="tabpanel" aria-labelledby="profile-tab-md">
+												<div class="row row-cols-1 row-cols-md-3 px-3  py-3">
+													<div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																	<source  class="embed-responsive-item" src="css/videos/multitec/inicial.mp4" type="video/mp4">	
+															</video>
+															 
+														  </div>
+														  <div class="card-body">
+															<h5 class="card-title">Apresentação geral</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													<div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multitec/quem_somos.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Quem somos</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multitec/Cadastro.mp4" type="video/mp4">	
+															</video>
+														  </div>
+														  <div class="card-body">
+															<h5 class="card-title">Cadastro</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													 
+													  
+													  
+												  </div>
+											</div>
+										</div>	
+										<p id="quemP" class="card-text">Foi um dos primeiros sites a ser desenvolvido, na ocasião utilizamos html e css e interações através de requisições de formulário, uma aplicação de venda de tecnologia.</p>
+										<a id="btproj" type="button" class="nav-link active" data-dismiss="modal">Close</a>
+										
+									</div>
+							</div>
+						</div>  
+						</div>
+						</div>
+								</div>
+							
+							  </div>
+							</div>
+						  
+						  </div>
+					
+						  <div class="col mb-4">
+							<div class="card ">
+							  <img  id="card-img" src="css/imagens/speed/inicial_speed.png" class="card-img-top" alt="...">
+							  <div id="cardP" class="card-body">
+								<h5 id="titleC" class="card-title">Speed Car</h5>
+								<div class="d-flex justify-content-center">
+									<button id="buttonC" type="button"  data-toggle="modal" data-target="#modalQuickShop" class="btn " data-toggle="modal">Visualizar site</button>
+									<div class="modal fade" id="modalQuickShop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+									aria-hidden="true">
+									<div class="modal-dialog modal-lg" role="document">
+									  <div class="modal-content">
+										<div class="modal-body">
+							
+											<ul id="tab" class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+												<li class="nav-item waves-effect waves-light">
+												<a id="btproj"  class="nav-link active" id="home-tab-md" data-toggle="tab" href="#galeriaAcademia" role="tab" aria-controls="home-md" aria-selected="true">Galeria</a>
+												</li>
+												
+												<a href="#teste">
+													<li class="nav-item waves-effect waves-light">
+													<a id="btproj" class="nav-link" id="videos" data-toggle="tab" href="#videosAcademia" role="tab" aria-controls="profile-md" aria-selected="false">Vídeos</a>
+													</li>
+												</a>
+											</ul>
+										  <div class="row">
+											<div class="tab-content " id="myTabContentMD">
+												<div class="tab-pane fade show active" id="galeriaAcademia" role="tabpanel" aria-labelledby="home-tab-md">
+													<div id="teste">
+														<div id="carouselExampleIndicatorsShop" class="carousel slide" data-ride="carousel">
+															<ol class="carousel-indicators">
+															  <li data-target="#carouselExampleIndicatorsShop" data-slide-to="0" class="active"></li>
+															  <li data-target="#carouselExampleIndicatorsShop" data-slide-to="1"></li>
+															  <li data-target="#carouselExampleIndicatorsShop" data-slide-to="2"></li>
+															  <li data-target="#carouselExampleIndicatorsShop" data-slide-to="3"></li>
+															</ol>
+															<div class="carousel-inner">
+															  <div class="carousel-item active">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/speed/inicial_speed.png" alt="First slide">
+															  </div>
+															  <div class="carousel-item">
+																<img id="imgCA"   class="img-fluid d-block" src="css/imagens/speed/login.png" alt="Second slide">
+															
+															  </div>
+															  <div class="carousel-item">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/speed/sobre.png" alt="Third slide">
+															  </div>
+					
+															  <div class="carousel-item">
+																<img id="imgCA"  class="img-fluid d-block" src="css/imagens/speed/inicial_products.png" alt="Third slide">
+															  </div>
+															  
+															</div>
+															<a class="carousel-control-prev" href="#carouselExampleIndicatorsShop" role="button" data-slide="prev">
+															  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+															  <span class="sr-only">Previous</span>
+															</a>
+															<a class="carousel-control-next" href="#carouselExampleIndicatorsShop" role="button" data-slide="next">
+															  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+															  <span class="sr-only">Next</span>
+															</a>
+														  </div>
+													
+													</div>
+												</div>
+							
+											
+							
+												<div class="tab-pane fade" id="videosAcademia" role="tabpanel" aria-labelledby="profile-tab-md">
+											
+													<div class="row row-cols-1 row-cols-md-3 px-3  py-3">
+														<div class="col mb-4">
+														  <div id="cardss" class="card ">
+															<div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/speedCar/geral.mp4" type="video/mp4">	
+																	</video>
+															  </div>
+															<div class="card-body">
+															  <h5 class="card-title">Apresentação geral</h5>
+															 
+															</div>
+														  </div>
+														</div>
+														<div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/speedCar/sobre-o-carro.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Informações do carro</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+														  <div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/speedCar/login-session.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Área restrita-login</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+														  <div class="col mb-4">
+															<div id="cardss" class="card ">
+															  <div class="embed-responsive embed-responsive-16by9">
+																	<video  controls>
+																		<source  class="embed-responsive-item" src="css/videos/speedCar/financiamento.mp4" type="video/mp4">	
+																	</video>
+																</div>
+															  <div class="card-body">
+																<h5 class="card-title">Financiamento do carro</h5>
+															   
+															  </div>
+															</div>
+														  </div>
+														  
+													  </div>
+												</div>
+											</div>	
+											<p id="quemP" class="card-text">Um site que atendeu as minhas expectativas, na qual a proposta pensada e bem executada foi de um sistema de concessionária de carros , foi usado html e css e framework como laravel e bootstrap.</p>
+											<a id="btproj" type="button" class="nav-link active" data-dismiss="modal">Close</a>
+									  </div>
+									  
+								</div>
+							</div>  
+							</div>
+							</div>
+					
+								
+								  
+					
+									
+								</div>
+								<!-- <p id="quemP" class="card-text">Um site que atendeu as minhas expectativas, na qual a proposta pensada e bem executada foi de um sistema de compra de produtos de academia , foi usado html e css e frameworks , para fazer o sistema de compra do carrinho usamos requisições get e post para realização do carrinho de compra.</p> -->
+							  </div>
+							</div>
+						  
+						  </div>
+					
+						  <div class="col mb-4">
+						  <div class="card ">
+							<img src="css/imagens/multimeios/inicial.png" class="card-img-top" alt="...">
+							<div id="cardP" class="card-body">
+								<h5 id="titleC" class="card-title">Centro de Multimeios</h5>
+							  <div class="d-flex justify-content-center">
+								<button id="buttonC" type="button"  data-toggle="modal" data-target="#modalQuickView" class="btn " data-toggle="modal">Visualizar site</button>
+								<div class="modal fade" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog modal-lg" role="document">
+								  <div class="modal-content">
+									<div class="modal-body">
+						
+										<ul id="tab" class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+											<li class="nav-item waves-effect waves-light">
+											<a id="btproj"  class="nav-link active" id="home-tab-md" data-toggle="tab" href="#galeriaMultimeio" role="tab" aria-controls="home-md" aria-selected="true">Galeria</a>
+											</li>
+											
+											<a href="#teste">
+												<li class="nav-item waves-effect waves-light">
+												<a id="btproj" class="nav-link" id="videos" data-toggle="tab" href="#videosMultimeios" role="tab" aria-controls="profile-md" aria-selected="false">Vídeos</a>
+												</li>
+											</a>
+										</ul>
+									  <div class="row">
+										<div class="tab-content " id="myTabContentMD">
+											<div class="tab-pane fade show active" id="galeriaMultimeio" role="tabpanel" aria-labelledby="home-tab-md">
+												<div id="teste">
+													<div id="carouselExampleIndicatorsG" class="carousel slide" data-ride="carousel">
+														<ol class="carousel-indicators">
+														  <li data-target="#carouselExampleIndicatorsG" data-slide-to="0" class="active"></li>
+														  <li data-target="#carouselExampleIndicatorsG" data-slide-to="1"></li>
+														  <li data-target="#carouselExampleIndicatorsG" data-slide-to="2"></li>
+														</ol>
+														<div class="carousel-inner">
+														  <div class="carousel-item active">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/multimeios/Gerenciamento.png" alt="First slide">
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"   class="img-fluid d-block" src="css/imagens/multimeios/Login.png" alt="Second slide">
+														
+														  </div>
+														  <div class="carousel-item">
+															<img id="imgCA"  class="img-fluid d-block" src="css/imagens/multimeios/livro.png" alt="Third slide">
+														  </div>
+														  
+														</div>
+														<a class="carousel-control-prev" href="#carouselExampleIndicatorsG" role="button" data-slide="prev">
+														  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+														  <span class="sr-only">Previous</span>
+														</a>
+														<a class="carousel-control-next" href="#carouselExampleIndicatorsG" role="button" data-slide="next">
+														  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+														  <span class="sr-only">Next</span>
+														</a>
+													  </div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="videosMultimeios" role="tabpanel" aria-labelledby="profile-tab-md">
+												<div class="row row-cols-1 row-cols-md-3 px-3  py-3">
+													<div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																	<source  class="embed-responsive-item" src="css/videos/multimeios/geral.mp4" type="video/mp4">	
+															</video>
+															 
+														  </div>
+														  <div class="card-body">
+															<h5 class="card-title">Apresentação geral</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													<div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/CadastroCliente.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Cadastro de Cliente</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/CadastroEditora.mp4" type="video/mp4">	
+															</video>
+														  </div>
+														  <div class="card-body">
+															<h5 class="card-title">Cadastro de Editora</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/CadastroGenero.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Cadastro de Gênero</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/CadastroMonitor.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Cadastro de Monitor</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+													 
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/livro.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Crud do Livro</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+						
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/editar.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Crud do Livro</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+						
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/emprestimo.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Empréstimo</h5>
+														   
+														  </div>
+														</div>
+													  </div>
+						
+													  <div class="col mb-4">
+														<div id="cardss" class="card ">
+														  <div class="embed-responsive embed-responsive-16by9">
+															<video  controls>
+																<source  class="embed-responsive-item" src="css/videos/multimeios/devolucao.mp4" type="video/mp4">	
+															</video>
+															</div>
+														  <div class="card-body">
+															<h5 class="card-title">Devolução de Livro</h5>
+														   
+														  </div>
+														</div>
+													  </div>	
+												  </div>
+											</div>
+										</div>
+										<p id="quemP" class="card-text">Uma aplicação deskstop para o centro de multimeios da escola coma função de realizar o controle de livros, tais como cadastro,empréstimo,agendamento e devolução de livros</p>
+										<a id="btproj" type="button" class="nav-link active" data-dismiss="modal">Close</a>
+									</div>
+							</div>
+						</div>  
+				</center>
+			</div>
+			<div class="tab-pane fade" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
+				<CENTER>
+				<div class="card-deck py-3">
+					<div class="card">
+						<img id="imgCA" class="card-img-top" src="css/imagens/galeria/coringa.jpg" alt="Card image cap">
+						<div class="card-body">
+						<h5 class="card-title">Arte do coringa</h5>
+						<p class="card-text">Uma arte que eu fiz para a nossa loja geek, como é possível observar saiu dentro dos conformes e ficou bem vísível para a visão daqueles que amam hérois</p>
+						</div>
+						
+					</div>
+					<div class="card">
+						<img id="imgCA" class="card-img-top" src="css/imagens/galeria/star.jpg" alt="Card image cap">
+						<div class="card-body">
+						<h5 class="card-title">Arte do star wars</h5>
+						<p class="card-text">Uma arte que eu fiz para a nossa loja geek, como é possível observar saiu dentro dos conformes e ficou bem vísível para a visão dos amantes de star wars</p>
+						</div>
+						
+					</div>
+					<div class="card">
+						<img id="imgCA" class="card-img-top" src="css/imagens/galeria/Oficial_Aranha.png" alt="Card image cap">
+						<div class="card-body">
+						<h5 class="card-title">Capa de arte de dvd/cd</h5>
+						<p class="card-text">A arte de uma capa de dvd desenvolvida na aula do professor aloísio na disciplina de designe</p>
+						</div>
+						
+					</div>
+			</div>
+				</center>
+			</div>     
+		</section>
+			
+	</div>     
+	
+			
+	 
+	
+
+	<!-- Footer -->
+	<center>	
+	<footer class="page-footer font-small white">
+		<div class="container">
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<p id="projetos">Rodrigo Vieira Nunes © 2020 Copyright:</p>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com/profile.php?id=100011358367676"><img style="width: 20px; background-color: 2980b9;" src="css/imagens/face.png"></a>
+				</li>
+				<li class="list-inline-item">
+				<a href="https://www.instagram.com/rodrigovieiranunes/"><img style="width: 20px; background-color: 2980b9;" src="css/imagens/insta.png"></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://rodrigo12663.github.io/site_portifolio/"><img style="width: 20px; background-color: 2980b9;" src="css/imagens/github.png"></a>
+				</li>	
+			</ul>
+		</div>
+	</footer>
+</center>
+</div>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
+
+
+
