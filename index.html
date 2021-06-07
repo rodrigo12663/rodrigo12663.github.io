@@ -28,6 +28,20 @@
 </head>
 	
 <body>
+								 
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('bG9qYXZpcnR1YWwxNzplYjRkMDNkYy1kNGNmLTQxMGEtODEwOC0zNzJlMzFjMGNjZTE=')
+            .withButton({"color":"#2CC3D5","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
 	<div id="primeira" class="primeira">
 		<nav class="navbar navbar-expand-lg navbar-dark ">
 			<a class="navbar-brand" href="#"><img id="logo" class="logo" src="css/imagens/rodri.png"></a>
@@ -884,20 +898,7 @@
 	</footer>
 </center>
 </div>
-							 
-<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
-</script>
-<script>
-    (function () {
-        window.onload = function () {
-            new BlipChat()
-            .withAppKey('bG9qYXZpcnR1YWwxNzplYjRkMDNkYy1kNGNmLTQxMGEtODEwOC0zNzJlMzFjMGNjZTE=')
-            .withButton({"color":"#2CC3D5","icon":""})
-            .withCustomCommonUrl('https://chat.blip.ai/')
-            .build();
-        }
-    })();
-</script>
+
                                 
 	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
